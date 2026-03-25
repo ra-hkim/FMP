@@ -1,0 +1,27 @@
+Monday 23rd march 2026
+
+# UE5
+## cards
+working on making the cards system actually apply data to the game, to do this I used a game instance to store all the card data by creating an array of the variable "ST cards" then by getting the array inside the card selected card widget and adding the new card to the array allowing every card that has been picked to be stored and recalled for later use.
+> ![[Pasted image 20260323125135.png]]
+> the image above shows when the desired card is selected the blueprint casts to the game instance and adds the card to an array variable as well as triggering an event to update the values and sending the index number of the card that was selected, allowing that specific card to be added onto the stack of cards 
+
+now to add the cards together and set it to the enemies and player I created a script inside the game instance which will update all the values whenever a card gets updated by created a custom event, in the custom event it takes the current number and multiplies it by the percentage
+> ![[Pasted image 20260323105840.png]]
+> above is an screenshot of the game instance blueprint which compiles all the selected cards and applies it to the player (walk speed is currently only functional) 
+#### balancing
+however multiplying the percentage causes the stacking to go very high after a few cards the walk-speed went from 600 to 30,000 so instead I changed the system to have another variable which stores the total amount of percentage that the cards have accumulated which then it multiplies that percentage by 600 to increase the speed at a slower and more reasonable rate
+
+# Adobe Photoshop
+I also creates some test assets to test the size for the images on cards, I landed on 280x150 as the resolution for my images as it creates a similar look to Pokémon cards or other trading cards.
+>![[Pasted image 20260323131647.png]]
+> creating some test images for cards in adobe photoshop
+
+
+[[Research 02]]
+
+> [!note] previous devlog
+> [[devlog 04]]
+
+> [!tip] next devlog
+> [[devlog 06]]

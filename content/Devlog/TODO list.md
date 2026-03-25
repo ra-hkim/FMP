@@ -1,0 +1,47 @@
+- [ ] enemies
+	- [x] AI - [[devlog 01#AI System]]
+		- [x] player detection - [[devlog 01#Toggling AI]]
+		- [x] movement
+	- [ ] models
+	- [ ] attacking
+	- [ ] health
+	- [ ] death
+- [ ] player
+	- [ ] attacking
+	- [ ] health
+	- [ ] death
+	- [ ] model
+- [ ] database
+	- [x] db structures - [[devlog 02#Databases]]
+	- [ ] create data tables 
+	- [ ] fill data tables
+- [ ] asset creation
+	- [ ] 3D modeling
+		- [ ] character
+		- [ ] enemies
+		- [ ] props
+		- [ ] environment
+	- [ ] texturing
+	- [ ] UI asset creation
+		- [ ] symbols
+		- [ ] card images
+		- [ ] fonts
+- [ ] Shaders
+	- [ ] outline shaders
+	- [ ] CEL shaders
+- [ ] UI
+	- [ ] cards
+		- [ ] animations
+		- [x] data pulling - [[devlog 03#cards]]
+		- [x] data setting - [[devlog 05#cards]]
+	- [ ] card selector
+		- [ ] animations
+	- [ ] HUD
+		- [ ] animations
+		- [ ] card preview
+	- [ ] escape menu
+		- [ ] Animations
+		- [ ] options menu
+	- [ ] death screen
+		- [ ] animations
+		- [ ] 
