@@ -11,7 +11,7 @@ Later on I also warped a button around the B_Border which allows the player to c
 Programming the visuals aspect of the cards is quite simple as I need to grab a random row from my database and then apply all the parameters from it to my card, the database contains the name, image, border and background colour, and the data for its effects.
 To pull the data I get the list of rows as an array and pick a random one from the array then I grab that row and break the structure into separate values, after this I can apply each parameter to the card. Description text is more complicated however, as I have the effect values I have to dynamically generate text for each positive and negative effect the card give, however it is not too difficulty to do this I simply check if the value is not 0 then add it to the cards description alongside adding colour, a +/- depending on the number and what the effect name is. 
 
-![[Pasted image 20260318114007.png]]
+
 
 
 

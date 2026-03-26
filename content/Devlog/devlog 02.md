@@ -2,7 +2,10 @@ Tuesday 17th march 2026
 # UE5
 
 ## Databases
-This game uses a cards mechanic and will have a set of cards for the player to pick from to create this I will be using databases allowing me to store information about every card and their effects and visual information.
+This game will be using a card selector mechanic and will have a set of cards for the player to pick from to which can give buffs or de-buffs to either the enemies or player. To create this I will be using databases allowing me to store information about every card and their effects and visual information.
+
+Before creating this system I will have to learn more about data bases and data tables in unreal engine, how to create one and interact with them in blueprints and in the editor, I used website like YouTube and ChatGPT to get a good understanding of them and logged everything in [[Research 01]]
+
 First I will have to create a structure for the database by creating a structure blueprint and adding several values including an image, colours, and floats for each effect the cards have.
 I also set some default values the main one being a background and border colour so the card inst transparent during testing
 >![[Pasted image 20260317135944.png]]
