@@ -2,7 +2,7 @@ Monday 23rd march 2026
 
 # UE5
 ## cards
-working on making the cards system actually apply data to the game, to do this I used a game instance to store all the card data by creating an array of the variable "ST cards" then by getting the array inside the card selected card widget and adding the new card to the array allowing every card that has been picked to be stored and recalled for later use.
+continuing on from [[devlog 03]] making the cards system actually apply data to the game, to do this I used a game instance to store all the card data by creating an array variable of the cards structure (which allows me to store multiple values in one variable) then by getting the game instance and casting to the game instance I can get the array from the game instance then add the card selected by the player which will add the new card to the array allowing every card that has been picked to be stored and recalled for later use.
 > ![[Pasted image 20260323125135.png]]
 > the image above shows when the desired card is selected the blueprint casts to the game instance and adds the card to an array variable as well as triggering an event to update the values and sending the index number of the card that was selected, allowing that specific card to be added onto the stack of cards 
 

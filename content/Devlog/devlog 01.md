@@ -9,7 +9,7 @@ I started by working on the AI system by using the template built into unreal en
 ### Toggling AI
 The AI automatically locks onto the player no matter the distance they are from the player because of this the enemies will spawn and start moving towards the player no matter the condition.
 To change this to make enemies only attack the player when they are within a specific range, by adding a sphere collision which enables the 
-> ![[Pasted image 20260317123237.png]]
+>![[Pasted image 20260317123237.png]]
 > screenshot above shows working AI system with detection
 
 >[!note] previous devlog
