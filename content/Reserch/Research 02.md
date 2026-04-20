@@ -1,6 +1,12 @@
+---
+title: Research 2
+date: 2026-03-17
+---
+
+
 # UE5
 
-Linking back to [[devlog 05]] I will need to store the data in a separate file allowing me to pull the data and set the data in the enemies and player, to do this I looked online for ways to do this.
+Linking back to [[devlog 04]] I will need to store the data in a separate file allowing me to pull the data and set the data in the enemies and player, to do this I looked online for ways to do this.
 ## Data Assets
 I first had a look at data assets I learnt about them from this YouTube video I found online however they were not suitable for my use case, I learnt that data assets are not actually used to store data like what I intended to do and are more useful elsewhere.
  ![yt](https://www.youtube.com/watch?v=3PrpLvC5EO8&t=67s)
