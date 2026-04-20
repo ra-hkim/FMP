@@ -2,6 +2,11 @@
 title: devlog 11
 date: 2026-04-20
 ---
+# UE5
+## User Interface
+Today I made some more of my games user interface including the pause menu and some of the options menu
+### Pause menu
+Continuing on with making my games user interface I decided to change up my pause menu from [[devlog 10]]
 ![[Pasted image 20260420094316.png]]
 
 ![[Pasted image 20260420094339.png]]

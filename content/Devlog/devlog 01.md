@@ -1,5 +1,5 @@
 ---
-title: devlog 01
+title: devlog 1
 date: 2026-03-16
 ---
 # starting UE5 project

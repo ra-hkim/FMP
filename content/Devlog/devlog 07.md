@@ -1,5 +1,5 @@
 ---
-title: devlog 07
+title: devlog 7
 date: 2026-03-27
 ---
 # UE5
