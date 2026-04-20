@@ -1,13 +1,13 @@
 ---
-title: Welcome to Quartz
+title: Final Media Project by Rahkim Ali
 ---
+# Welcome
+welcome to my final media project for Games development 
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
 
 ---
 >[!warning]
->currently under construction go to [[Welcome]] for main page
+>currently under construction 
 
 >[!warning]
 >if your looking for the devlog start at [[devlog 01]] or the [[TODO list]]

@@ -33,7 +33,7 @@
 	- [ ] cards
 		- [ ] animations
 		- [x] data pulling - [[devlog 03#cards]]
-		- [x] data setting - [[devlog 05#cards]]
+		- [x] data setting - [[devlog 04#cards]]
 	- [ ] card selector
 		- [ ] animations
 	- [ ] HUD
@@ -44,4 +44,4 @@
 		- [ ] options menu
 	- [ ] death screen
 		- [ ] animations
-		- [ ] 
+		- [ ] options
