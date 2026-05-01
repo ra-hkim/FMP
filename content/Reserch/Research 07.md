@@ -1,0 +1,13 @@
+# UE5
+## Options Menu
+When making my options menu in [[devlog 11]] and [[devlog 12]] I had to research about how to make options menus to allow the player to change options like graphics or sound.
+![https://youtu.be/bLJNuzp2dpI](https://youtu.be/bLJNuzp2dpI)
+This video taught me several new things about unreal UI as well as how to make options / settings menu, the video is also split up into several sections including; how to make the UI, making a child blueprint for the switcher, and the functionality of each options.
+### Making UI
+Starting off with making the actual UI for the options menu he starts by creating a "widget switcher" with multiple canvas panels as a child of the switcher. This allows to switch between UI elements for this use case I am using multiple canvas panels with the options inside it, from this I can create "tabs" for the player to switch between.
+Inside each menu I decided to make a similar layout to the person with a title on the top and a vertical box with several options for the player to pick from. Inside the vertical box I added a horizontal box similarly to the video with more rich text and the child blueprint.
+### Child blueprints
+Child blueprints is something new that I learnt from the video, although I used a child blueprint in [[devlog 03]] I did not know much about them up till now where I learnt how I can use them to make things like option pickers or buttons, from this I learnt that they can be used to make games UI more concomitant for example if I make every button a child blueprint I can change the design of the child blueprint and it would change every buttons design in the UI. 
+In this use-case for a options menu the person showed off a option picker that goes from low to ultra, this was used for graphics settings however they can be used for anything. I plan to also add difficulty settings into my game-play tab allowing the player to change the difficulty settings like card scaling or enemy scaling.
+### functionality
+The final key thing that I learnt from this video is how to add functionality to each option inside the options menu, from the child widget there is a interface allowing the child to interact with the parent widget blueprint, from this the option picker can send the selected option to the parent. To set the graphics quality settings inside the parent blueprint from the interface with the child I learnt to change the settings I can use the get game settings node and set setting to change the graphics options of the game.

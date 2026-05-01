@@ -5,7 +5,7 @@ date: 2026-04-17
 # UE5
 ## User Interface
 Today I started making some more UI for my game 
-### Escape menu
+### Pause menu
 I started to make my pause menu for my game initially I got the idea to recreate the main menu with the 3 cards the player can select from however I added a background blur to remove distractions from the game, as well as pausing the game when the menu is open
 ![[Screenshot 2026-04-17 093342 1.png]]
 To make this pause menu I created a new blueprint interface to recreate my main menu in, however I realised after making this I could just duplicate my main menu and turn it into my escape menu. Instead I duplicated my main menu of the game and changed some things around, firstly I added a blur in the background to remove distractions and allow the player to focus on the main user interface, after this I changed the text values of the title above and the cards below to fit the escape menu, I changed "pick a card" to "game paused" and "start" to "resume"
