@@ -1,5 +1,5 @@
 ---
-title: Devlog 03
+title: Devlog 3
 date: 2026-03-18
 ---
 

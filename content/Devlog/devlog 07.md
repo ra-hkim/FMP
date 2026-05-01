@@ -1,13 +1,14 @@
 ---
-title: devlog 07
+title: devlog 7
 date: 2026-03-27
 ---
 # UE5
 ## debugging
 There were several issues with my game that I came across while play testing it I took a note of them in my head while testing my game, so today I decided to fix all of these issues with my game.
 ### Data setting
-the first issue I came across was that the cards were not setting data correctly because of this some effects of cards were not applying at all, to fix this issue I first made this print script that prints the values of every effect and give them a name. To make this script I converted the output of the set variables to strings and then combined them together with an append node alongside a name to stop me from getting confused,
+the first issue I came across was that the cards were not setting data correctly because of this some effects of cards were not applying at all, to fix this issue I first made this print script that prints the values of every effect and give them a name. To make this script I converted the output of the set variables to strings and then combined them together with an append node alongside a name to stop me from getting confused.
 ![[Pasted image 20260327110157.png]]
+From this print script I figured out that some of the calculations were wrong I found that the 
 ### AI detection
 I wanted to make the AI activate when the player gets into a specific range of the enemy however I don't want the player to see the enemies not moving, to fix this issue with my game I went to the enemy character blueprint and enabled show in game for the sphere collision actor.
 ![[Pasted image 20260327103527.png]]

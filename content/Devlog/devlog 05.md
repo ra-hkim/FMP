@@ -1,5 +1,5 @@
 ---
-title: devlog 05
+title: devlog 5
 date: 2026-03-24
 ---
 
