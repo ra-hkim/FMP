@@ -1,47 +1,52 @@
-- [ ] enemies
+- [x] enemies
 	- [x] AI - [[devlog 01#AI System]]
 		- [x] player detection - [[devlog 01#Toggling AI]]
 		- [x] movement
-	- [ ] models
-	- [ ] attacking
-	- [ ] health
-	- [ ] death
-- [ ] player
-	- [ ] attacking
-	- [ ] health
-	- [ ] death
-	- [ ] model
-- [ ] database
+	- [x] models - [[devlog 17#New character model]]
+	- [x] attacking
+	- [x] health - [[devlog 17#Enemy Health]]
+	- [x] death
+- [x] player
+	- [x] attacking
+	- [x] health - [[devlog 06#Health]]
+	- [x] death - [[devlog 19#Death]]
+	- [x] model - [[devlog 17#New character model]]
+- [x] database
 	- [x] db structures - [[devlog 02#Databases]]
-	- [ ] create data tables 
-	- [ ] fill data tables
-- [ ] asset creation
-	- [ ] 3D modeling
-		- [ ] character
-		- [ ] enemies
-		- [ ] props
-		- [ ] environment
-	- [ ] texturing
-	- [ ] UI asset creation
-		- [ ] symbols
-		- [ ] card images
-		- [ ] fonts
-- [ ] Shaders
+	- [x] create data tables 
+	- [x] fill data tables
+- [x] asset creation
+	- [x] 3D modeling
+		- [x] character - [[devlog 17#New character model]]
+		- [x] enemies - [[devlog 17#New character model]]
+		- [x] props - [[devlog 16#Blender]]
+		- [x] environment - [[devlog 14#Blender]]
+	- [x] texturing
+	- [x] UI asset creation - [[devlog 19#Adobe Photoshop]]
+		- [x] symbols
+		- [x] card images
+		- [x] fonts - [[Research 06#Fonts]]
+- [x] Shaders
 	- [ ] outline shaders
-	- [ ] CEL shaders
-- [ ] UI
-	- [ ] cards
-		- [ ] animations
+	- [x] CEL shaders - [[devlog 16#Cel Shading]]
+- [x] UI
+	- [x] cards
+		- [x] animations - [[devlog 09#Card animation]]
 		- [x] data pulling - [[devlog 03#cards]]
 		- [x] data setting - [[devlog 04#cards]]
-	- [ ] card selector
+	- [x] card selector - [[devlog 03#Card picker]]
+		- [x] animations
+	- [x] HUD - [[devlog 06#HUD]]
 		- [ ] animations
-	- [ ] HUD
-		- [ ] animations
-		- [ ] card preview
-	- [ ] escape menu
+		- [x] card preview - [[devlog 15#Mini cards]]
+		- [x] health - [[devlog 08#Updating UI]]
+		- [x] design - [[devlog 20#Prettying up my UI]]
+	- [x] escape menu - [[devlog 10#Pause menu]]
 		- [ ] Animations
-		- [ ] options menu
-	- [ ] death screen
-		- [ ] animations
-		- [ ] options
+		- [x] stats display - [[devlog 11#Game stats]]
+	- [x] options menu - [[devlog 11#Options menu]]
+		- [x] programming - [[devlog 12#Options Menu]] - [[devlog 13#Options menu]]
+		- [x] design
+	- [x] death screen - [[devlog 19#Death]]
+		- [x] animations
+		- [x] options
