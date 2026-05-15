@@ -1,5 +1,5 @@
 ---
-title: Research 2
+title: Research 02
 date: 2026-03-17
 ---
 

@@ -35,7 +35,7 @@ I also spent some time adding more cards to my game as well as adding colours to
 Later on I will be making preview images for each card containing a symbol that represents what It changes
 
 ## Options menu
-firstly I researched about how options menus are made I ended up folowing a video in [[Research 07]], after going through the video I learnt how to make an options menu. Firstly I made the child widget that I mentioned in the research and video, below is the programming for the widget.
+firstly I researched about how options menus are made I ended up following a video in [[Research 06]], after going through the video I learnt how to make an options menu. Firstly I made the child widget that I mentioned in the research and video, below is the programming for the widget.
 ![[Pasted image 20260420162916.png]]
 To make this widget I followed the video by creating a next and back button alongside some text. After making the UI I then added some event that set the current option depending on if the player presses the back or next button, this also sets the text to the corresponding option with another custom event. 
 Another important feature too add is to disable the button when at the maximum option allowable, to do this I link the activated option in the details of each button to a function and then get the current option and the length of the array, so when the current option is less than the length the button stays enabled but when it is at the maximum it is disabled.

@@ -8,7 +8,7 @@ date: 2026-03-24
 ## AI
 I was having performance issues with AI in my game as the AI would be active and would attempt to move towards the player even after I disabled it, to fix this I changed from disabling the character movement of the NPCs to instead stooping the state tree from being called automatically and manually calling it when the enemies get into the set range 
 ![[Pasted image 20260323114654.png]]
->I asked chatGPT to help with this issue and it suggested a fix that worked well
+I asked ChatGPT in [[Research 03]] to help with this issue and it suggested a fix that worked well
 
 ## cards
 I also continued to work on the cards system on my game, today i finished the data setting system that I started in [[devlog 04]], the way this system works is quite simple it stores every value inside the game instance where the player enemies and other blueprints can pull data from allowing them to dynamically change things like walk speed or damage.
